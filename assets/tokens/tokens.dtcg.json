@@ -1,0 +1,209 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "color": {
+    "abyssus": {
+      "abyss": {
+        "$type": "color",
+        "$value": "#080A0D"
+      },
+      "nocturne": {
+        "$type": "color",
+        "$value": "#111820"
+      },
+      "forgedBlue": {
+        "$type": "color",
+        "$value": "#273746"
+      },
+      "startrace": {
+        "$type": "color",
+        "$value": "#607D99"
+      },
+      "firstLight": {
+        "$type": "color",
+        "$value": "#9FC4E2"
+      }
+    },
+    "vallum": {
+      "paleStone": {
+        "$type": "color",
+        "$value": "#F8F7F2"
+      },
+      "ivory": {
+        "$type": "color",
+        "$value": "#EEECE5"
+      },
+      "patinaMist": {
+        "$type": "color",
+        "$value": "#DCE4E0"
+      },
+      "verdigrisFrost": {
+        "$type": "color",
+        "$value": "#AFC2BC"
+      },
+      "rampartShade": {
+        "$type": "color",
+        "$value": "#637774"
+      },
+      "inkBone": {
+        "$type": "color",
+        "$value": "#252A2A"
+      }
+    },
+    "status": {
+      "success": {
+        "$type": "color",
+        "$value": "#6F8F83"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "#B09464"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "#A96F74"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "#607D99"
+      }
+    }
+  },
+  "semantic": {
+    "abyssus": {
+      "bgPrimary": {
+        "$type": "color",
+        "$value": "#080A0D"
+      },
+      "bgSecondary": {
+        "$type": "color",
+        "$value": "#0B0F13"
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "#111820"
+      },
+      "surfaceSubtle": {
+        "$type": "color",
+        "$value": "#151E27"
+      },
+      "surfaceRaised": {
+        "$type": "color",
+        "$value": "#1A2530"
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "#1D2B37"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "#16212A"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "#273746"
+      },
+      "borderStrong": {
+        "$type": "color",
+        "$value": "#3A5268"
+      },
+      "textPrimary": {
+        "$type": "color",
+        "$value": "#E7EEF4"
+      },
+      "textSecondary": {
+        "$type": "color",
+        "$value": "#AAB7C3"
+      },
+      "textTertiary": {
+        "$type": "color",
+        "$value": "#7C8B98"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "#9FC4E2"
+      },
+      "accentStrong": {
+        "$type": "color",
+        "$value": "#B4D2E9"
+      },
+      "accentMuted": {
+        "$type": "color",
+        "$value": "#607D99"
+      },
+      "onAccent": {
+        "$type": "color",
+        "$value": "#080A0D"
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "#789FBE"
+      }
+    },
+    "vallum": {
+      "bgPrimary": {
+        "$type": "color",
+        "$value": "#F8F7F2"
+      },
+      "bgSecondary": {
+        "$type": "color",
+        "$value": "#F3F1EA"
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "#FCFBF8"
+      },
+      "surfaceSubtle": {
+        "$type": "color",
+        "$value": "#EEECE5"
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "#E3E9E5"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "#EDF1EE"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "#D8DCD7"
+      },
+      "borderStrong": {
+        "$type": "color",
+        "$value": "#C7CDC8"
+      },
+      "textPrimary": {
+        "$type": "color",
+        "$value": "#252A2A"
+      },
+      "textSecondary": {
+        "$type": "color",
+        "$value": "#656C69"
+      },
+      "textTertiary": {
+        "$type": "color",
+        "$value": "#858D89"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "#AFC2BC"
+      },
+      "accentStrong": {
+        "$type": "color",
+        "$value": "#5D706C"
+      },
+      "accentMuted": {
+        "$type": "color",
+        "$value": "#DCE4E0"
+      },
+      "onAccent": {
+        "$type": "color",
+        "$value": "#252A2A"
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "#78968F"
+      }
+    }
+  }
+}
