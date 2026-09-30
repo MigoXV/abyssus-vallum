@@ -4,7 +4,7 @@ export const abyssusVallum = {
   primitives: {
     abyssus: {
       abyss: '#080A0D', nocturne: '#111820', forgedBlue: '#273746',
-      startrace: '#607D99', firstLight: '#9FC4E2',
+      startrace: '#607D99', firstLight: '#9FC4E2', starleaf: '#E7EEF4',
     },
     vallum: {
       paleStone: '#F8F7F2', ivory: '#EEECE5', patinaMist: '#DCE4E0',

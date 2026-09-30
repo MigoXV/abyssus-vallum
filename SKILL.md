@@ -23,29 +23,30 @@ description: 规范“苍渊·白垣 / ABYSSUS · VALLUM”的配色与设计风
 - 保持极简、低卡片化、清晰对齐、低饱和；避免大色块、强投影、玻璃拟态、超大圆角、霓虹、无意义发光与大面积渐变。
 - 使用等线风格无衬线 UI 字体；中文优先 Noto Sans SC / 思源黑体 / 系统黑体，西文数字用 Inter / system-ui。仅在品牌海报或章节标题少量使用宋体；不要默认采用尖锐装饰字体。
 - 遵循 8px 间距基准、40px 常规控件（紧凑 32px）、6/8px 圆角、大容器最多 12px、1px 边框。根据移动端和内容密度适配布局，不把桌面侧栏宽度强加到窄屏。
+- 苍渊与白垣各有六个核心色。星笺 / Starleaf `#E7EEF4` 沿用苍渊主文字色，表达可阅读与传递的知识；初光保持关键强调角色，星笺不用于大面积铺底。
 - 白垣主操作使用墨骨背景与石素文字；苍渊主操作使用初光背景与深渊文字。不要把白垣 accent 直接当成主按钮背景。
 - 品牌叙事服务气质，操作文案保持具体。不要把“保存”“运行”等业务动作改成诗性隐喻。需要宣传语言时读 [品牌语言](references/brand/BRAND_VOICE.md)。
 
 ## 数值与资源治理
 
-以 `assets/tokens/tokens.dtcg.json` 和 `assets/tokens/tokens.css` 为数值真源；JSON/TypeScript 为便利导出。颜色名称与使用边界看颜色规范，组件规则看 UI 文档，精确色卡用于人工核对，摄影与生成图只作气质参考。若数值源互相冲突，说明具体冲突，不能静默挑选或从图中重采样覆盖。
+以 `assets/tokens/tokens.dtcg.json` 和 `assets/tokens/tokens.css` 为数值真源；JSON/TypeScript 为便利导出。颜色名称与使用边界看颜色规范，组件规则看 UI 文档，精确色卡用于人工核对，生成图只作气质参考。若数值源互相冲突，说明具体冲突，不能静默挑选或从图中重采样覆盖。
 
-直接复用 [CSS](assets/tokens/tokens.css)、[JSON](assets/tokens/tokens.json)、[TypeScript](assets/tokens/tokens.ts)或 [DTCG](assets/tokens/tokens.dtcg.json)，根据目标工具转换格式，保持颜色值不变。保留原始快照；导入器不支持旧 DTCG 颜色表示时，只在交付项目中转换格式。
+直接复用 [CSS](assets/tokens/tokens.css)、[JSON](assets/tokens/tokens.json)、[TypeScript](assets/tokens/tokens.ts)或 [DTCG](assets/tokens/tokens.dtcg.json)，根据目标工具转换格式，保持颜色值不变。原始 v1.0 快照保留在 Git 历史中；导入器不支持旧 DTCG 颜色表示时，只在交付项目中转换格式。
 
 在根元素设置 `data-theme="vallum"` 或 `data-theme="abyssus"`，组件使用语义变量。SVG 使用 currentColor；图表集中注入颜色映射；不要在组件中散写品牌 HEX。需要主按钮等组件 Token 时，在项目 Token 层别名到已有色值。双主题复用同一结构与交互逻辑。
 
-注意原包仅苍渊含 surfaceRaised；跨主题组件需要它时，在项目适配层将白垣映射到已有 surface，避免未定义变量，勿擅自新增色值。CSS 中含全局 body/selection/focus 样式，接入现有项目前检查作用域。
+原包仅苍渊含 surfaceRaised，CSS 也含全局 html/body/selection/focus 样式。接入时按 [变量映射与适配层](references/ui/FIGMA_AND_FRONTEND.md)处理缺省角色、主按钮别名及作用域，勿擅自新增色值。
 
-用户明确要求改变规范时按其要求执行；说明偏离项及影响。不要自行改动 v1.0 核心色值，也不要为普通作品自动更新技能。仅在用户要求升级体系时依据 [版本锁](references/brand/VERSION_LOCK.md)记录新版本与迁移影响。
+用户明确要求改变规范时按其要求执行；说明偏离项及影响。不要自行改动当前版本锁定的核心色值，也不要为普通作品自动更新技能。仅在用户要求升级体系时依据 [版本锁](references/brand/VERSION_LOCK.md)记录新版本与迁移影响。
 
 ## 按需读取资源
 
 以下相对路径均以技能目录为基准。
 
 - 既有训练平台改色：读 [迁移建议](references/ui/TRAINING_PLATFORM_MIGRATION.md)，保留列表式结构、列对齐和低卡片化。
-- 需要材料与光感：读 [图片索引](assets/reference-images/REFERENCE_INDEX.md)，再查看其中相关图片。商品截图与花束用于内部参考，不默认作为公开作品插图；不从生成 moodboard 提取精确色值。
-- 需要精确色卡：查看 `assets/palette-cards/00_master_palette_exact.png`；分主题查看 `01_abyss_palette_exact.png`、`02_vallum_palette_exact.png`。
-- 需要界面示例：参考 `assets/examples/vallum_training_platform_demo.html` 或 `assets/examples/abyss_dashboard_demo.html`。仅复用视觉和结构模式，不将示例业务内容当成用户需求，也不要把示例当作完整生产实现。
+- 需要材料与光感：读 [图片索引](assets/reference-images/REFERENCE_INDEX.md)，再查看其中相关图片。目录仅包含苍渊与白垣各一张界面氛围图和色彩海报；不从生成图提取精确色值，也不将其装饰与排布视为组件要求。
+- 需要精确色卡：查看 `assets/palette-cards/00_master_palette_exact.svg`；分主题查看 `01_abyss_palette_exact.svg`、`02_vallum_palette_exact.png`。
+- 需要界面示例：参考 `assets/examples/vallum_training_platform_demo.html` 或 `assets/examples/abyss_dashboard_demo.html`。它们是未接入业务的静态视觉参考；仅复用视觉和结构模式，不将示例业务内容当成用户需求，也不要把示例当作完整生产实现。
 
 ## 验收
 

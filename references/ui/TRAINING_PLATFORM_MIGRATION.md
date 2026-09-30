@@ -1,8 +1,8 @@
 # 现有训练平台迁移建议
 
-参考图：`assets/reference-images/04_existing_training_platform_reference.png`
+迁移前先检查目标项目的实际页面。对于已有极简、列表式、低卡片化的训练平台，优先保留结构，只给灰色一点色相。
 
-当前页面骨架已经很适合白垣：极简、列表式、留白大、卡片少。迁移原则是**95% 保留结构，只给灰色一点色相**。
+参考 [白垣静态示例](../../assets/examples/vallum_training_platform_demo.html)理解列表与对齐方式；[白垣界面氛围图](../../assets/reference-images/03_vallum_ui_moodboard.png)仅用于材料与光感，不作为平台布局模板。
 
 ## 第一阶段：只换 Token
 

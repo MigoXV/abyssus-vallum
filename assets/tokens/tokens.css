@@ -1,4 +1,4 @@
-/* 苍渊·白垣 / ABYSSUS · VALLUM — v1.0 locked tokens */
+/* 苍渊·白垣 / ABYSSUS · VALLUM — v1.1 locked tokens */
 :root {
   /* Primitive — Abyssus */
   --av-abyss: #080A0D;
@@ -6,6 +6,7 @@
   --av-forged-blue: #273746;
   --av-startrace: #607D99;
   --av-first-light: #9FC4E2;
+  --av-starleaf: #E7EEF4;
 
   /* Primitive — Vallum */
   --av-pale-stone: #F8F7F2;
