@@ -39,3 +39,7 @@
 - 拉丁：`ABYSSUS · VALLUM`
 
 禁止使用 `/`、`+`、`&` 替代正式总名中的中点。
+
+## 星笺
+
+苍渊第六个核心色：**星笺 / Starleaf**，`#E7EEF4`。英文 leaf 取书页之意，表示承载星光的一页；代码键统一为 `starleaf`，CSS 基础变量为 `--av-starleaf`。主文字语义名称仍为 `textPrimary` / `--text-primary`。

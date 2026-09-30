@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1200" viewBox="0 0 1920 1200" role="img" aria-labelledby="title"><title id="title">苍渊·白垣 v1.1 双主题六色精确色卡</title><g font-family="Noto Sans CJK SC, Noto Sans SC, sans-serif">
+<rect x="0" y="0" width="960" height="1200" fill="#080A0D"/>
+<text x="80" y="130" font-size="64" fill="#E7EEF4">苍渊</text>
+<text x="80" y="185" font-size="28" fill="#E7EEF4">ABYSSUS · v1.1</text>
+<text x="80" y="244" font-size="24" fill="#E7EEF4">尚未被理解的世界</text>
+<rect x="80" y="320" width="760" height="90" rx="8" fill="#080A0D" stroke="#E7EEF4" stroke-opacity=".3"/>
+<text x="108" y="356" font-size="25" fill="#E7EEF4">深渊  Abyss</text>
+<text x="108" y="389" font-size="22" fill="#E7EEF4">#080A0D</text>
+<rect x="80" y="426" width="760" height="90" rx="8" fill="#111820" stroke="#E7EEF4" stroke-opacity=".3"/>
+<text x="108" y="462" font-size="25" fill="#E7EEF4">夜海  Nocturne</text>
+<text x="108" y="495" font-size="22" fill="#E7EEF4">#111820</text>
+<rect x="80" y="532" width="760" height="90" rx="8" fill="#273746" stroke="#E7EEF4" stroke-opacity=".3"/>
+<text x="108" y="568" font-size="25" fill="#E7EEF4">铸铁  Forged Blue</text>
+<text x="108" y="601" font-size="22" fill="#E7EEF4">#273746</text>
+<rect x="80" y="638" width="760" height="90" rx="8" fill="#607D99" stroke="#E7EEF4" stroke-opacity=".3"/>
+<text x="108" y="674" font-size="25" fill="#080A0D">星痕  Startrace</text>
+<text x="108" y="707" font-size="22" fill="#080A0D">#607D99</text>
+<rect x="80" y="744" width="760" height="90" rx="8" fill="#9FC4E2" stroke="#E7EEF4" stroke-opacity=".3"/>
+<text x="108" y="780" font-size="25" fill="#080A0D">初光  First Light</text>
+<text x="108" y="813" font-size="22" fill="#080A0D">#9FC4E2</text>
+<rect x="80" y="850" width="760" height="90" rx="8" fill="#E7EEF4" stroke="#E7EEF4" stroke-opacity=".3"/>
+<text x="108" y="886" font-size="25" fill="#080A0D">星笺  Starleaf</text>
+<text x="108" y="919" font-size="22" fill="#080A0D">#E7EEF4</text>
+<text x="80" y="1090" font-size="30" fill="#E7EEF4">星笺让未知变得可读。</text>
+<rect x="960" y="0" width="960" height="1200" fill="#F8F7F2"/>
+<text x="1040" y="130" font-size="64" fill="#252A2A">白垣</text>
+<text x="1040" y="185" font-size="28" fill="#252A2A">VALLUM · v1.1</text>
+<text x="1040" y="244" font-size="24" fill="#252A2A">理解之后被建立和保存的秩序</text>
+<rect x="1040" y="320" width="760" height="90" rx="8" fill="#F8F7F2" stroke="#252A2A" stroke-opacity=".3"/>
+<text x="1068" y="356" font-size="25" fill="#252A2A">石素  Pale Stone</text>
+<text x="1068" y="389" font-size="22" fill="#252A2A">#F8F7F2</text>
+<rect x="1040" y="426" width="760" height="90" rx="8" fill="#EEECE5" stroke="#252A2A" stroke-opacity=".3"/>
+<text x="1068" y="462" font-size="25" fill="#252A2A">象牙  Ivory</text>
+<text x="1068" y="495" font-size="22" fill="#252A2A">#EEECE5</text>
+<rect x="1040" y="532" width="760" height="90" rx="8" fill="#DCE4E0" stroke="#252A2A" stroke-opacity=".3"/>
+<text x="1068" y="568" font-size="25" fill="#252A2A">雾青  Patina Mist</text>
+<text x="1068" y="601" font-size="22" fill="#252A2A">#DCE4E0</text>
+<rect x="1040" y="638" width="760" height="90" rx="8" fill="#AFC2BC" stroke="#252A2A" stroke-opacity=".3"/>
+<text x="1068" y="674" font-size="25" fill="#252A2A">铜霜  Verdigris Frost</text>
+<text x="1068" y="707" font-size="22" fill="#252A2A">#AFC2BC</text>
+<rect x="1040" y="744" width="760" height="90" rx="8" fill="#637774" stroke="#252A2A" stroke-opacity=".3"/>
+<text x="1068" y="780" font-size="25" fill="#F8F7F2">垣影  Rampart Shade</text>
+<text x="1068" y="813" font-size="22" fill="#F8F7F2">#637774</text>
+<rect x="1040" y="850" width="760" height="90" rx="8" fill="#252A2A" stroke="#252A2A" stroke-opacity=".3"/>
+<text x="1068" y="886" font-size="25" fill="#F8F7F2">墨骨  Ink Bone</text>
+<text x="1068" y="919" font-size="22" fill="#F8F7F2">#252A2A</text>
+<text x="1040" y="1090" font-size="30" fill="#252A2A">墨骨让理解有所依托。</text>
+</g></svg>

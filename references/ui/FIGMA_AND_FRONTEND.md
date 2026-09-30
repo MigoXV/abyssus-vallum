@@ -62,6 +62,33 @@
 
 因为这会破坏主题切换和后续版本治理。
 
+## 接入适配层
+
+原始 CSS 包含 `html, body`、`::selection` 和 `:focus-visible` 全局规则。整页接入时在 `html` 设置主题；嵌入局部界面时，将这些规则限定到容器，避免影响宿主页面。
+
+主按钮不能直接在两主题都使用 `accent`。在目标项目的适配层建立别名，不修改原始 Token：
+
+```css
+[data-theme="vallum"] {
+  --button-primary-bg: var(--av-ink-bone);
+  --button-primary-text: var(--av-pale-stone);
+  /* 仅当组件需要时补齐；复用已有表面色。 */
+  --surface-raised: var(--surface);
+}
+[data-theme="abyssus"] {
+  --button-primary-bg: var(--accent);
+  --button-primary-text: var(--on-accent);
+}
+.button-primary {
+  background: var(--button-primary-bg);
+  color: var(--button-primary-text);
+}
+```
+
+白垣原始 Token 没有 `surfaceRaised`，使用该角色的跨主题组件应按上例适配。Figma 可将同一角色映射到白垣 `surface`。DTCG 原始文件使用 HEX 字符串；若导入器要求其他颜色表示，在目标交付物中转换并核对数值。
+
+文字角色也需结合背景选择：`textTertiary`、状态色及 `accentStrong` 并非在所有表面上都适合小字，具体边界见 [可访问性说明](ACCESSIBILITY.md)。
+
 ## 建议工程约束
 
 - 建立 lint 规则或代码审查约定：业务组件禁止出现品牌 HEX。

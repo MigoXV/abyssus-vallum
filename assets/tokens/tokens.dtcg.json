@@ -21,6 +21,10 @@
       "firstLight": {
         "$type": "color",
         "$value": "#9FC4E2"
+      },
+      "starleaf": {
+        "$type": "color",
+        "$value": "#E7EEF4"
       }
     },
     "vallum": {
